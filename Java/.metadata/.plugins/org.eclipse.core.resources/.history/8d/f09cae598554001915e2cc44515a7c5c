@@ -1,0 +1,17 @@
+package exemplo01;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		
+		//JOptionPane.showMessageDialog(null, "teste", "titulO", 0); Zero é usado para definir o tipo de mensagem
+		
+		System.out.println("Bom dia");
+		System.out.println("Segunda-Feira 01/04/2019");
+
+	}
+
+}

@@ -1,0 +1,46 @@
+package exercicio08;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double valor_final;
+		
+		int n1= Integer.parseInt(JOptionPane.showInputDialog("Insira o primeiro valor"));
+		String opera= JOptionPane.showInputDialog("Escolha a operação +; -; /; *");
+		int n2= Integer.parseInt(JOptionPane.showInputDialog("Insira o segundo valor"));
+		
+		if((opera == "+")) {
+			valor_final=n1+n2;
+		}else if((opera == "-")) {
+			valor_final=n1-n2;
+		}else if((opera == "/")) {
+			valor_final=n1/n2;
+		}else {
+			valor_final=n1*n2;
+		}
+		
+		JOptionPane.showMessageDialog(null, "Resultado: "+valor_final);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

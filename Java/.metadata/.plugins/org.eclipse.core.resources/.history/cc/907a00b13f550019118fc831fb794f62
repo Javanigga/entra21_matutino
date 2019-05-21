@@ -1,0 +1,24 @@
+package exemplo04;
+
+import javax.swing.JOptionPane;
+
+public class Pricipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*Exibir mensagem
+		JOptionPane.showMessageDialog(null, "Bom dia");
+		JOptionPane.showMessageDialog(null, "Tudo ok?", "Titulo",JOptionPane.QUESTION_MESSAGE );// Primeiro = Texto, Segundo = Titulo, Terceiro = Icone
+		JOptionPane.showMessageDialog(null, "Informação", "Titulo",JOptionPane.INFORMATION_MESSAGE );
+		JOptionPane.showMessageDialog(null, "Perigo", "Titulo",JOptionPane.WARNING_MESSAGE );
+		JOptionPane.showMessageDialog(null, "Falha", "Titulo",JOptionPane.ERROR_MESSAGE );
+		*/
+	
+	//Armazenar valores
+	String nome = JOptionPane.showInputDialog("Informe seu nome");
+	JOptionPane.showMessageDialog(null, "Bom Dia"+ +nome);
+	
+	}
+
+}

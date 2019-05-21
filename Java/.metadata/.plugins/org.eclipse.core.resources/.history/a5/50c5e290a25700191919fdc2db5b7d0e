@@ -1,0 +1,25 @@
+package exercicio17;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Numero base"));
+		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Numero divisor"));
+		
+		int quociente = (num1/num2);
+		
+		JOptionPane.showMessageDialog(null, "O Quocinte é "+quociente);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

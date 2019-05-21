@@ -1,0 +1,28 @@
+1) Iniciar o Git
+git init
+
+2) Status
+git status
+
+3) Selecionar arquivos
+git add nomeArquivo
+
+4) Mensagem de envio
+git commit -m "Enviando os arquivos pela primeira vez"
+
+5) Selecionar diretório do Github
+git remote add origin https://github.com/ralflima/entra21_matutino.git
+
+6) Enviar arquivos
+git push origin master
+
+7) Obter arquivos
+git pull origin master
+
+
+
+
+
+
+
+

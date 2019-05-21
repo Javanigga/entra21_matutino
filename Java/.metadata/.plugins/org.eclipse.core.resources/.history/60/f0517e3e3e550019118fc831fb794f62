@@ -1,0 +1,16 @@
+package exemplo04;
+
+import javax.swing.JOptionPane;
+
+public class Pricipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Exibir mensagem
+		JOptionPane.showMessageDialog(null, "Bom dia");
+		JOptionPane.showMessageDialog(null, "Tudo ok?", "Titulo",JOptionPane.QUESTION_MESSAGE );
+		
+	}
+
+}

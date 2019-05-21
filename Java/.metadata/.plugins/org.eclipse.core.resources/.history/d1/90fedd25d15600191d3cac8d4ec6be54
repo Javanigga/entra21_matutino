@@ -1,0 +1,22 @@
+package exercicio04;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String produto = JOptionPane.showInputDialog("Informe o tipo do produto ");
+		double preço = Integer.parseInt(JOptionPane.showInputDialog("Informe sua idade"));
+		String pagamento = JOptionPane.showInputDialog("Informe a forma de pagamento ");
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

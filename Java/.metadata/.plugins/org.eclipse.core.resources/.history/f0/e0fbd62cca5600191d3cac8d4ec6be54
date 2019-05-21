@@ -1,0 +1,19 @@
+package exercicio01;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		JOptionPane.showInputDialog("Informe seu nome");
+		JOptionPane.showInputDialog("Informe sua idade");
+		JOptionPane.showInputDialog("Informe a cidade onde mora");
+		
+		
+		
+		
+	}
+
+}

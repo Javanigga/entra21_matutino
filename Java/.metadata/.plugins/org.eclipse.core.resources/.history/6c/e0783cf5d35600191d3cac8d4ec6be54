@@ -1,0 +1,29 @@
+package exercicio04;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double valor_final;
+		
+		String produto = JOptionPane.showInputDialog("Informe o tipo do produto ");
+		double preço = Integer.parseInt(JOptionPane.showInputDialog("Informe o preço do produto"));
+		String pagamento = JOptionPane.showInputDialog("Informe a forma de pagamento ").toLowerCase();
+		
+		
+		if((preço >= 500) && (pagamento.equals("à vista"))) {
+				valor_final=preço*0.9;
+				JOptionPane.showMessageDialog(null, "O preço do" +produto+ "será de R$ " +valor_final);
+		}else {
+			JOptionPane.showMessageDialog(null, "O preço do" +produto+ "será de R$ " +preço);
+		}
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package exercicio03;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double valor = 500;
+		
+		System.out.println("Você obteve um desconto de 10%, valor a pagar "+(valor*0.9));
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package exercicio07;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = Integer.parseInt(JOptionPane.showInputDialog("Insira o valor para a Tabuada"));
+				Integer.parseInt(JOptionPane.showMessageDialog(null, ("Número informado "+n +
+																	 "\\n x 0 = ")));
+					
+		
+		
+		
+	}
+
+}

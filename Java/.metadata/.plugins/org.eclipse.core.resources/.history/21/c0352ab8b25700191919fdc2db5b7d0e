@@ -1,0 +1,22 @@
+package exercicio20;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       
+		int e1c1 = 1; int e1c2 = 2; int e1c3 = 3;		
+		int e2c1 = 1; int e2c2 = 2; int e2c3 = 3;
+		int e3c1 = 1; int e3c2 = 2; int e3c3 = 3;
+		
+		JOptionPane.showInputDialog("Escolha o estado: 1-SC 2-SP 3-RJ");
+		
+		
+		
+		
+		
+	}
+
+}

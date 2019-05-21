@@ -1,0 +1,14 @@
+package exemplo04;
+
+public class Pricipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Exibir mensagem
+		JOptionPane.showMessageDialog(null, "Bom dia");
+	
+		
+	}
+
+}

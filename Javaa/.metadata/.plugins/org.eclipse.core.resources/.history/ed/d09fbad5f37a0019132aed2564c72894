@@ -1,9 +1,0 @@
-package Cargos;
-
-public class Analista extends Cargos {
-
-	//IR(Imposto de renda)
-		public void ir() {
-			
-		}
-}

@@ -1,0 +1,28 @@
+package exemplo7;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+   REGRAS DE SINAIS
+   1º DIVIDIR
+   2º MULTIPLICAR
+   3º SUBTRAIR
+   4º SOMAR
+ */
+		
+		
+		
+		
+		
+		//Condicional Composta
+		double nota1 = Double.parseDouble(JOptionPane.showInputDialog("nota 1"));
+		double nota1 = Double.parseDouble(JOptionPane.showInputDialog("nota 2"));
+		
+		System.out.println((nota1+nota2)/2);
+	}
+
+}
