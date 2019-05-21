@@ -1,0 +1,10 @@
+package acao;
+import beans.Nome;
+import dados.Dados;
+public class Acao {
+
+	//Cadastrar
+	public void Cadastrar (Nome c) {
+		Dados.arrayNome.add(c);
+	}
+}

@@ -1,0 +1,50 @@
+package beans;
+
+public class Nome {
+
+	private String Nome, Idade, Altura, Peso, IMC;
+
+	public String getNome() {
+		return Nome;
+	}
+
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+
+	public String getIdade() {
+		return Idade;
+	}
+
+	public void setIdade(String idade) {
+		Idade = idade;
+	}
+
+	public String getAltura() {
+		return Altura;
+	}
+
+	public void setAltura(String altura) {
+		Altura = altura;
+	}
+
+	public String getPeso() {
+		return Peso;
+	}
+
+	public void setPeso(String peso) {
+		Peso = peso;
+	}
+
+	public String getIMC() {
+		return IMC;
+	}
+
+	public void setIMC(String iMC) {
+		IMC = iMC;
+	}
+
+	
+	}
+	
+

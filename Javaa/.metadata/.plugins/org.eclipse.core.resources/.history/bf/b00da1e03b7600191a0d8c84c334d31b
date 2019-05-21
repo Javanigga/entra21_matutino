@@ -1,0 +1,36 @@
+package acao;
+
+import javax.swing.table.DefaultTableModel;
+import beans.ADM;
+import dados.Dados;
+
+public class Acao {
+
+	//cadastrar
+	
+	public void cadastrar (ADM j) {
+		Dados.arrayDados.add(j);
+	}
+
+	//Seleção
+			public DefaultTableModel selecionar() {
+				
+				DefaultTableModel modelo = new DefaultTableModel();
+				modelo.addColumn("Nome");
+				modelo.addColumn("Senha");
+				modelo.addColumn("Nome");
+				modelo.addColumn("Senha");
+				
+			for (int indice = 0 ; indice<Dados.arrayDados.size() ; indice++) {
+				modelo.addRow(new Object[] {
+					Dados.arrayDados.get(indice).getNome(),
+					Dados.arrayDados.get(indice).getSenha(),
+					
+				}
+			
+			}
+			
+			
+			}
+}
+

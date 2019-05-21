@@ -1,0 +1,14 @@
+package Cargos;
+
+public class Cargos extends cargos {
+
+	//Atributo
+	private String cargo;
+	private double salario;
+	private int nivel;
+	
+	//Vale transporte
+	public void vt() {
+		
+	}
+}

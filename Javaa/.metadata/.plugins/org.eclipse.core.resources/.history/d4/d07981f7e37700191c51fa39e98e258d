@@ -1,0 +1,20 @@
+package acao;
+
+import beans.Beans;
+import dados.Dados;
+
+public class Acao {
+	
+	public void Quantidade (Beans q) {
+		Dados.arrayBeans.add(q);
+		
+	
+	}
+	
+	static int contador = 0;
+	
+	public void quantidade () {
+		System.out.println(contador);
+		contador++;
+}
+}
