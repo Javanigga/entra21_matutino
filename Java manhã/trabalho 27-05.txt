@@ -1,0 +1,21 @@
+Departamentos
+ Eletro Eletronicos
+ Moveis
+ Celulares
+Produtos
+ eletro eletronicos
+  TV's
+  Aparehlo se som
+  Forno eletrico
+  Micro ondas
+ moveis
+  Sofa
+  Cama
+  Estante
+  Mesas
+ Celulares
+  Iphone
+  Samsung
+  Xiaomi
+  LG
+  
